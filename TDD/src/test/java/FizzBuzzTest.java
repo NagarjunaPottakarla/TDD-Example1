@@ -12,7 +12,6 @@ public class FizzBuzzTest {
 	public void setup() {
 		fizzBuzz = new FizzBuzz();
 	}
-
 	@Test
 	public void testNumber() {
 		int number = 1;
