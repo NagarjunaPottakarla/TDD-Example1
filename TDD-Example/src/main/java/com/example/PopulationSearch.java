@@ -28,7 +28,6 @@ public class PopulationSearch {
 		populationMap.put("Mumbai", 800000);
 
 		return populationMap;
-
 	}
 
 }

@@ -12,7 +12,6 @@ public class PopulationSearchTest {
 	public void setup() {
 		ps = new PopulationSearch();
 	}
-
 	@Test
 	public void findPopulation() {
 		String city = "Bangalore";
