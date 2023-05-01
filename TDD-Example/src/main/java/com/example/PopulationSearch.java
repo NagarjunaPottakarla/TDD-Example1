@@ -29,5 +29,4 @@ public class PopulationSearch {
 
 		return populationMap;
 	}
-
 }

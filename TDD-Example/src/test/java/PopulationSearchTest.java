@@ -29,7 +29,6 @@ public class PopulationSearchTest {
 		int count = ps.getPopulation(city);
 		Assert.assertEquals(expectedPopulation, count);
 	}
-
 	@Test(expected = NullPointerException.class)
 	public void findPopulationInvalidInput() {
 		String city = "xyz";
