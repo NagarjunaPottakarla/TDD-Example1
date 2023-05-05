@@ -36,5 +36,12 @@ public class FizzBuzzTest {
 		String numberReturn = fizzBuzz.play(number);
 		Assert.assertEquals("Fizz", numberReturn);
 	}
+	@Test
+	public void testBuzz() {
+		
+		int number=5;
+		String numberReturn = fizzBuzz.play(number);
+		Assert.assertEquals("Buzz", numberReturn);
+	}
 
 }
