@@ -44,4 +44,11 @@ public class FizzBuzzTest {
 		Assert.assertEquals("Buzz", numberReturn);
 	}
 
+	@Test
+	public void testBuzzDivisibleBy5() {
+		
+		int number=10;
+		String numberReturn = fizzBuzz.play(number);
+		Assert.assertEquals("Buzz", numberReturn);
+	}
 }
